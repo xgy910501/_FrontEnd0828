@@ -1,0 +1,97 @@
+/*css/style.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;//垂直方向滚动条
+}
+
+body::before {
+    content: '';
+    background: url("../image/bg.png") no-repeat center 133px;
+    background-size: 1757px 845px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;//透明度
+    z-index: -1;
+}
+
+#logo,
+#title
+{
+    width: 650px;
+    margin: auto;
+    height: 200px;
+}
+
+#logo {
+    background: url("../image/logo.svg") no-repeat center bottom;
+    background-size: 224px 85px;
+    height: 183px;
+}
+
+#title {
+    height: 55px;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    margin: 8px 0 32px;
+    color: #999;
+    text-align: center;
+}
+
+#content {
+    margin: auto;
+    width: 648px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#sign {
+    height: 242px;
+}
+
+#nav {
+    padding: 14px 0 16px;
+    background: #f7f7f7;
+    height: 20px;
+    border-top: 1px solid #ddd;
+}
+
+ul {
+    padding: 2px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 7.5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul li a:link {
+    color: rgba(175, 175, 175, 0.952941);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+ul li:last-child {
+    margin-right: 0px;
+}
+
+
