@@ -10,7 +10,7 @@ html {
 
 body::before {
     content: '';
-    background: url("../image/bg.png") no-repeat center 133px;
+    background: url("../image/bg.png") no-repeat center 134px;
     background-size: 1757px 845px;
     height: 100%;
     width: 100%;
@@ -30,7 +30,7 @@ body::before {
 #logo {
     background: url("../image/logo.svg") no-repeat center bottom;
     background-size: 224px 85px;
-    height: 183px;
+    height: 182px;
 }
 
 #title {
@@ -54,25 +54,24 @@ h2 {
 }
 
 #sign {
-    height: 242px;
+    height: 243px;
 }
 
 #nav {
-    padding: 14px 0 16px;
+    padding: 14px 0px 16px;
     background: #f7f7f7;
-    height: 20px;
+    height: 21px;
     border-top: 1px solid #ddd;
 }
 
 ul {
-    padding: 2px;
     text-align: center;
 }
 
 ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 7.5px;
+    margin-right: 8px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
